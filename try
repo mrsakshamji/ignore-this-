@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            color: black;
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar {
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: antiquewhite;
+        }
+
+        .navdiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        li {
+            padding: 15px;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            display: inline-block;
+        }
+
+        a:hover {
+            color: brown;
+        }
+
+        .logo a {
+
+            font-size: 40px;
+        }
+
+        .logo {
+            padding-left: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .basic {
+            background-color:brown;
+            display: flex;
+        }
+
+        body {
+            background-color: crimson;
+        }
+
+        .side {
+            display: flex;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+
+        .about {
+            background-color: white;
+            display: flex;
+        }
+
+        .Heading {
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 360px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <section class="navigation">
+        <div class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="#">Portfolio</a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.instagram.com/mr_sakshamji/">Instagram</a></li>
+                    <li><a href="https://in.linkedin.com/in/mrsaksham-jain">Linkedin</a></li>
+                    <li><a href=" https://wa.me/+918839516951">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+    <section class="Basic">
+        <div class="basic">
+            
+            <br>
+            <div class="side"><iframe src="https://sakshamjain.netlify.app/" style="border:0px #ffffff none;"
+                    name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px"
+                    width="600px" allowfullscreen></iframe></div>
+            
+
+        </div>
+        <div class="about">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6EEyiM4KavqKeHPbNj4NLcDVNv6wef4IT09xwZ9YIatdfnHA79MuRUL5g2p2YJ99yfGzgmE2nqT6otTyWbN2YTJeeoR4zSHtJjIfS0FoIBxzgfw-JV5cb-PM3K_9ySotui5p6hK1HYAxgCLjHm4s6vLXbXPvpPw7ygtybyXXYMjeNddd2tgXsUKg-Nu05/s320/WhatsApp%20Image%202024-01-07%20at%204.12.39%20PM.jpeg"
+                alt="Image Not Availabel">
+            <ul>
+                <li>I am a second-year student pursuing my Bachelor's of Computer Applications (BCA) from IPS Academy,
+                    Indore. <br>Passionate
+                    about computer science and technology, I am constantly striving to gain practical experience and
+                    develop my skills to
+                    excel in my academic and professional journey.
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
